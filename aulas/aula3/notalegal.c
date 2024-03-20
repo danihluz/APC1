@@ -1,4 +1,4 @@
-#include <stdio.h>
+q#include <stdio.h>
 
 int main() {
   printf("\x1b[32m--------------------------------\n");
