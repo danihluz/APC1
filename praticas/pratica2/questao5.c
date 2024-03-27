@@ -11,8 +11,6 @@ int main () {
   float altura
   printf ("Qual a sua altura?");
   scanf ("%f", altura);
-
-  
   
   return 0
 }
