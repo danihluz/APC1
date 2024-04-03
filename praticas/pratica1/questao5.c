@@ -9,9 +9,9 @@ int main () {
   printf ("Insira o valor em Gigabytes: \n");
   int deu_certo = scanf ("%f", &gigabytes);
 
- float bytes = (gigabytes * 1073741824);
+  float bytes = (gigabytes * 1073741824);
 
-  printf ("%10.0f bytes\n", bytes); // 10.0 - ficar sem casa decimal
+  printf ("%.2f bytes\n", bytes); // 10.0 - ficar sem casa decimal
 
   return 0;
 }

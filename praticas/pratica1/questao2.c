@@ -3,19 +3,18 @@
 #include <stdio.h>
 
 int main () {
-  printf ("-------------------------------\n");
-  printf ("CÁLCULO DA ÁREA DE UM TRIÂNGULO\n");
-  printf ("-------------------------------\n");
-
-  int base > 0;
-  int altura > 0;
+  int base;
+  int altura;
   
   printf ("Insira o valor da base\n");
-  scanf ("%d" , base);
+  int deu_certo = scanf ("%i", &base);
 
   printf ("Insira o valor da altura\n");
-  scanf ("%d" , altura);
+  deu_certo = scanf ("%i", &altura);
 
-  int calculo = (base * altura / 2);
-  printf ("A área do triângulo é %d\n" , calculo);
+  float area = (base * altura) / 2;
+
+  printf ("A área do triângulo é %.2f\n", area);
+
+  return 0;
 }

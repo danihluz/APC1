@@ -13,8 +13,7 @@ int main () {
   
   perimetro = 2 * PI * raio;
   
-  printf ("O perímetro da pizza é: %f\n", perimetro);
+  printf ("O perímetro da pizza é: %.2f\n", perimetro);
 
   return 0;
-  
 }

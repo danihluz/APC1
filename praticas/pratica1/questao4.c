@@ -4,8 +4,8 @@
 
 int main () {
   const float ICMS = 0.17f;
-  const float COFINS = 0,076f;
-  const float PIS_PASEP = 0,0165;
+  const float COFINS = 0.076f;
+  const float PIS_PASEP = 0.0165;
 
   float preco_inicial = 100.0f;
   float preco_final = 0.0f;
@@ -21,7 +21,6 @@ int main () {
   printf ("Preço final = %f\n", valor_imposto_ICMS);
   printf ("Preço final = %f\n", valor_imposto_COFINS);
   printf ("Preço final = %f\n", valor_imposto_PIS_PASEP = PIS_PASEP);
-
 
   return 0;
 }

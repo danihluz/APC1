@@ -3,19 +3,16 @@
 #include <stdio.h>
 
 int main () {
-  printf ("----------------------\n");
-  printf ("CÁLCULO DA MÉDIA FINAL\n");
-  printf ("----------------------\n");
 
-  float nota1 = 5.5f;
-  float nota2 = 4.0f;
-
+  float nota1;
   printf ("INSIRA A SUA NOTA DA A1\n");
-  scanf ("%d", &a1);
+  int deu_certo = scanf ("%f", &nota1);
 
+  float nota2;
   printf ("INSIRA A SUA NOTA DA A2\n");
-  scanf ("%d" , &a2);
+  deu_certo = scanf ("%f", &nota2);
 
-  printf ("A SUA MÉDIA FINAL É: %d\n" , calculo);
-
+  float media = 0.4 * nota1 + 0.6 * nota2;
+  
+  printf ("A SUA MÉDIA FINAL É: %.2f\n", media);
 }
