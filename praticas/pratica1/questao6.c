@@ -23,7 +23,7 @@ int main () {
   double calculomenos = (-1) * b - raiz_quadrada / 2 * a;
 
   if (raiz_quadrada < 0) {
-      printf ("A raiz quadrada é negativa, não existem números reais\n");
+      printf ("A raiz quadrada é negativa, não existe solução nos números reais\n");
       return 0;
     }
     

@@ -11,7 +11,7 @@ int main () {
 
   float bytes = (gigabytes * 1073741824);
 
-  printf ("%.2f bytes\n", bytes); // 10.0 - ficar sem casa decimal
+  printf ("%.2f bytes\n", bytes); // .2 - ficar sem casa decimal
 
   return 0;
 }
